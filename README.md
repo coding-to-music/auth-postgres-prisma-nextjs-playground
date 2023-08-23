@@ -27,7 +27,7 @@ nvm use 18
 
 see `.env-example`
 
-Paste the .env values into `VercelDashboard-->Settings-->EnvironmentValues`
+Paste the `.env` values into `VercelDashboard-->Settings-->EnvironmentValues`
 
 ```java
 # Used by Prisma:
@@ -99,6 +99,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## This project was created via
 
+https://nextjs.org/docs/pages/api-reference/create-next-app
+
 ```java
-npx create-next-app auth-postgres-prisma-nextjs-playground -e https://github.com/coding-to-music/auth-postgres-prisma-nextjs --use-yarn
+npx create-next-app auth-postgres-prisma-nextjs-playground --use-yarn -e https://github.com/coding-to-music/auth-postgres-prisma-nextjs
 ```
