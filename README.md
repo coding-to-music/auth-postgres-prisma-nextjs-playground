@@ -27,6 +27,8 @@ nvm use 18
 
 see `.env-example`
 
+Paste the .env values into `VercelDashboard-->Settings-->EnvironmentValues`
+
 ```java
 # Used by Prisma:
 #   url = env("POSTGRES_PRISMA_URL") // uses connection pooling
@@ -39,7 +41,6 @@ POSTGRES_URL_NON_POOLING=
 
 # Generate one here: https://generate-secret.vercel.app/32 (only required for localhost)
 NEXTAUTH_SECRET=
-
 ```
 
 ## GitHub
