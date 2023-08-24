@@ -104,3 +104,29 @@ https://nextjs.org/docs/pages/api-reference/create-next-app
 ```java
 npx create-next-app auth-postgres-prisma-nextjs-playground --use-yarn -e https://github.com/coding-to-music/auth-postgres-prisma-nextjs
 ```
+
+## Upgrade npm Packages
+
+```
+ncu
+```
+
+```java
+Using yarn
+
+[====================] 19/19 100%
+
+ @types/node         ^18.11.9  →   ^20.5.4
+ @types/react        ^18.0.25  →  ^18.2.21
+ autoprefixer         ^10.4.4  →  ^10.4.15
+ bcrypt                ^5.1.0  →    ^5.1.1
+ eslint                8.11.0  →    8.47.0
+ eslint-config-next   ^13.0.5  →  ^13.4.19
+ next                 ^13.4.2  →  ^13.4.19
+ next-auth            ^4.22.1  →   ^4.23.1
+ postcss              ^8.4.12  →   ^8.4.28
+ tailwindcss          ^3.0.23  →    ^3.3.3
+ typescript            ^4.6.2  →    ^5.1.6
+
+Run ncu -u to upgrade package.json
+```
