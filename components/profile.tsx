@@ -4,8 +4,8 @@ const user = {
   name: "Hedy Lamarr",
   imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
   //   imageSize: 90,
-  width: 50,
-  height: 50,
+  width: 40,
+  height: 40,
 };
 
 const imageStyle = {
