@@ -10,7 +10,7 @@ const user = {
 
 const imageStyle = {
   borderRadius: "50%",
-  border: "1px solid #fff",
+  border: "2px solid #fff",
 };
 
 //   export default function ProfileImage() {
