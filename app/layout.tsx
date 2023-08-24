@@ -28,6 +28,10 @@ export const metadata: Metadata = {
   themeColor: "#FFF",
 };
 
+function MyButton() {
+  return <button>I&apos;m a button</button>;
+}
+
 export default async function RootLayout({
   children,
 }: {
@@ -37,6 +41,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.variable}>
         <Toaster />
+        <MyButton />
         <Suspense fallback="Loading...">
           <AuthStatus />
         </Suspense>
