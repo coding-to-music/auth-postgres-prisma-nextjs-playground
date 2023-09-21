@@ -2,7 +2,7 @@
 
 # 🚀 Simple Next.js 13 App Router starter kit that uses NextAuth.js for auth, Prisma as the ORM, and Vercel Postgres as a database. 🚀
 
-### Status and Issues (see Issue Tab)
+### Status and Issues (see Issues Tab)
 
 - Works. Plays Rickroll video in protected route.
 - #2 (open) Logout button does not work on header, only in works in protected Rick Roll route.
